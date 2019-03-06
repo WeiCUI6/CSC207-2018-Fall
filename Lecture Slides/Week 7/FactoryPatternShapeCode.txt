@@ -1,0 +1,75 @@
+Based on code from: https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+
+public interface Shape {
+     void draw();
+}
+
+public class Rectangle implements Shape {
+
+     @Override
+     public void draw() {
+          System.out.println("This is the Rectangle draw() method.");
+     }
+}
+
+public class Square implements Shape {
+
+     @Override
+     public void draw() {
+          System.out.println("This is the Square draw() method.");
+     }
+}
+
+public class Circle implements Shape {
+
+     @Override
+     public void draw() {
+          System.out.println("This is the Circle draw() method.");
+     }
+}
+
+public class ShapeFactory {
+
+     //use getShape method to get object of type shape
+     public Shape getShape(String shapeType){
+          if(shapeType == null){
+                return null;
+          }
+          if(shapeType.equalsIgnoreCase("CIRCLE")){
+                return new Circle();
+          } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+                return new Rectangle();
+          } else if(shapeType.equalsIgnoreCase("SQUARE")){
+                return new Square();
+          } else if(shapeType.equalsIgnoreCase("ROUND SHAPE")){
+		    return new Oval();
+	    }
+          return null;
+     }
+}
+
+public class FactoryPatternDemo {
+     public static void main(String[] args) {
+          ShapeFactory shapeFactory = new ShapeFactory();
+
+          //get an object of type Circle.
+          Shape shape1 = shapeFactory.getShape("CIRCLE");
+
+          //call Circe's draw method
+          shape1.draw();
+
+          //get an object of type Rectangle
+          Shape shape2 = shapeFactory.getShape("RECTANGLE");
+
+          //call Rectangle's draw method
+          shape2.draw();
+
+          //get an object of type Square
+          Shape shape3 = shapeFactory.getShape("SQUARE");
+
+          //call Square's draw method
+          shape3.draw();
+     }
+}
+
+Alternatively, make ShapeFactory abstract and have TriangleShapeFactory and a RectangleShapeFactory for drawing different sets of shapes.
