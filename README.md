@@ -6,6 +6,8 @@ Course materials of CSC207 in 2018 Fall at the University of Toronto
 
 - Projects: Use android studio to implement a Game Centre containing three different games (i.e. Sliding Tiles, Sudoku, Tower of Hanoi)
 
+- Assignments: Two assignments (A1: fixing code smell; A2: implement part of the game: sliding tile)
+
 ## License
 
 All materials are under [Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en).
