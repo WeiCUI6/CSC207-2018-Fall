@@ -1,0 +1,86 @@
+Order SES Blue
+Order SES Red
+Order SE Grey
+Order SE Grey
+Picker Alice ready
+Order S Beige
+Order SES Green
+Order SE White
+Picker Alice pick 37
+Picker Bob ready
+Order SE Silver
+Picker Alice pick 38
+Picker Alice pick 21
+Order SE Tan
+Order S Green
+Order SES Graphite
+Order S White
+Picker Alice pick 22
+Picker Bob pick 9
+Picker Alice pick 59
+Picker Bob pick 10
+Order SES Grey
+Picker Bob pick 29
+Picker Alice pick 60
+Picker Bob pick 30
+Picker Bob pick 3
+Picker Alice pick 59
+Order SE Blue
+Picker Alice pick 60
+Order S Gold
+Picker Alice to marshaling
+Picker Bob pick 4
+Picker Bob pick 7
+Picker Alice pick 1
+Picker Bob pick 91
+Sequencer Sue ready
+Sequencer Sue scan 37
+Sequencer Sue scan 38
+Sequencer Sue scan 21
+Sequencer Sue scan 22
+Sequencer Sue scan 59
+Sequencer Sue scan 60
+Sequencer Sue scan 60
+Sequencer Sue scan 59
+Sequencer Sue scan 60
+Sequencer Sue sequences
+Picker Alice pick 75
+Picker Alice pick 76
+Loader Bill loads
+Order S Gold
+Picker Bob pick 92
+Picker Alice pick 25
+Picker Bob to marshaling
+Sequencer Sue scan 37
+Sequencer Sue scan 38
+Sequencer Sue scan 21
+Sequencer Sue scan 22
+Sequencer Sue scan 59
+Sequencer Sue scan 60
+Sequencer Sue scan 60
+Sequencer Sue scan 59
+Sequencer Sue scan 60
+Picker Alice pick 26
+Picker Bob ready
+Picker Alice pick 85
+Picker Bob pick 61
+Picker Bob pick 62
+Picker Alice pick 86
+Picker Bob pick 35
+Sequencer Sue sequences
+Picker Bob pick 36
+Picker Alice pick 1
+Loader Bill loads
+Picker Alice pick 2
+Picker Bob pick 65
+Picker Alice to marshaling
+Picker Bob pick 66
+Sequencer Sue sequences
+Picker Bob pick 65
+Replenisher Ruby ready
+Replenisher Ruby replenish
+Picker Bob pick 66
+Loader Bill loads
+Picker Bob to marshaling
+Sequencer Sue sequences
+Loader Bill loads
