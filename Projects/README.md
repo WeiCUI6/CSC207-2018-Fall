@@ -1,4 +1,4 @@
-# CSC207 2018Fall Project
+# CSC207 2018 Fall Project
 ##### Group 0667
 ---
 ### Android Studio setup instructions
